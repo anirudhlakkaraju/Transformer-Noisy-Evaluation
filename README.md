@@ -35,11 +35,20 @@ To enhance the Sentiment Analysis (SA) and Question Answering (QA) tasks, we emp
 
 ## Results
 
-In Sentiment Analysis, top-performing models BERT10% and ELECTRA10% achieved high F1 scores of 0.9112 and 0.9122 on clean datasets, maintaining robust performance (F1 scores of 0.8672 and 0.8675) on noisy datasets. 
+In _Sentiment Analysis_, top-performing models BERT_10% and ELECTRA_10% achieved high F1 scores of **0.9112** and **0.9122** when evaluated on clean datasets, maintaining robust performance (F1 scores of **0.8672** and **0.8675**) when evaluated on noisy datasets. 
 
-For Question Answering, BERTclean and ELECTRA15% excelled with F1 scores of 0.6844 and 0.79 on clean data, maintaining resilience with scores of 0.6991 and 0.7738 in noisy conditions. 
+For _Question Answering_, BERT_clean and ELECTRA_15% excelled with F1 scores of **0.6844** and **0.79** when evaluated on clean data, maintaining resilience with scores of **0.6991** and **0.7738** when evaluated in noisy conditions. 
 
 For detailed comparisons and findings about all model performances, please refer to the full report in `report/` directory.
+
+<!-- Note: Explanation of the notation used in this section -->
+<details>
+  <summary><strong>Notation Explanation</strong></summary>
+  
+  - **MODEL_X%:** Represents MODEL which has been trained on a dataset with _X%_ noise.
+  - **MODEL_clean:** Represents MODEL which has been trained on a clean dataset.
+  
+</details>
 
 ## Usage
 
